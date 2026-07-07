@@ -1,0 +1,23 @@
+# Data — large files, download separately (see README)
+data/*
+!data/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
