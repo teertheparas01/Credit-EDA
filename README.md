@@ -99,25 +99,26 @@ Credit EDA/
 ## Getting Started
 
 ```bash
-# 1. Clone the repository
-git clone <your-repo-url>
-cd "Credit EDA"
+# Clone the repository
+git clone https://github.com/teertheparas01/Credit-EDA.git
+cd Credit-EDA
 
-# 2. (Optional) create a virtual environment
+# Create a virtual environment (optional)
 python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
 
-# 3. Install dependencies
+# Activate the environment
+# Windows
+.venv\Scripts\activate
+
+# macOS / Linux
+source .venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 
-# 4. Add the dataset
-#    Download application_data.csv from Kaggle -> place it in data/
-
-# 5. Launch the notebook
+# Launch the notebook
 jupyter notebook notebook/credit_eda.ipynb
 ```
-
-Run the cells top to bottom to reproduce the full analysis.
 
 ---
 
